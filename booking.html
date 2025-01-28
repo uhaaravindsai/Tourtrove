@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hotel Reservation</title>
+    <!-- <link rel="stylesheet" href="styles.css"> -->
+    <link rel="stylesheet" href="project.css"/>
+</head>
+<body>
+    <div class="menu">
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="gallery.html">Places</a></li>
+            <li><a href="https://colorlib.com/etc/cf/ContactFrom_v15/index.html">Contact</a></li>
+            <li><a href="#">Booking</a></li>
+            <li><a href="about.html">About us</a></li>
+        </ul>
+    </div>
+    <div class="reservation-form">
+        <h1>Make Your Reservation</h1>
+        <form action="/submit-reservation" method="post">
+            <input type="text" id="location" name="location" placeholder="Country, ZIP, city">
+            <input type="text" id="checkin-date" name="checkin-date" placeholder="CHECK IN (dd-mm-yyyy)">
+            <input type="text" id="checkout-date" name="checkout-date" placeholder="CHECK OUT (dd-mm-yyyy)">
+            <input type="number" id="no-of-rooms" name="no-of-rooms" placeholder="Number of Rooms">
+            <input type="number" id="no-of-adults" name="no-of-adults" placeholder="Number of Adults">
+            <input type="number" id="no-of-children" name="no-of-children" placeholder="Number of Children">
+            <input type="email" id="email-address" name="email-address" placeholder="Enter your Email">
+            <input type="tel" id="phone-number" name="phone-number" placeholder="Enter your Phone">
+            <button type="submit">BOOK NOW</button>
+        </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

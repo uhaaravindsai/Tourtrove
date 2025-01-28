@@ -1,0 +1,94 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Travel Website</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="project.css">
+    <style>
+        .user-info{
+            font-size: 30px;
+            #username-display{
+                font-size: 50px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="navbar">
+        <div class="logo">
+            <h1>TOUR TROVE</h1>
+        </div>
+        <div class="menu">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="gallery.html">Places</a></li>
+                <li><a href="CONTACT.HTML">Contact</a></li>
+                <li><a href="file:///C:/Users/Dharani/OneDrive/Desktop/TOUR%20TROVE/registration.html">Booking</a></li>
+                <li><a href="about.html">About us</a></li>
+            </ul>
+        </div>
+        <div class="LOGIN">
+            <a href="file:///C:/Users/Dharani/OneDrive/Desktop/TOUR%20TROVE/landingpage.html">LOG OUT</a>
+        </div>
+        
+    </div>
+    <div class="body">
+        <div class="heading">
+            <div class="user-info">
+                Welcome, <span id="username-display"></span>
+            </div>
+            <h1>The Essence of Incredible India</h1>
+            <br>
+            When traveling with us, you enjoy access to special events, fairs, and festivals as we keep a tab on them at place where you are travelling. In Rajasthan, for example, you may get enthralled with various fair and festivals happening in a particular month. At Kerala, there is Onam, and a lot more in other parts of India.
+            <br>
+            <br>
+            <a href="about.html">Learn More</a>
+        </div>
+        <div class="tours">
+            <div class="places">
+                <h2>Mumbai</h2>
+                <img src="mumbai.jpd.jpg" style="width: 300px; height: 250px; border-radius: 12px;">
+                <br>
+                <br>
+                <a href="file:///C:/Users/Dharani/OneDrive/Desktop/TOUR%20TROVE/registration.htmL">Book Now 15% OFF</a>
+            </div>
+            <div class="places">
+                <h2>Delhi</h2>
+                <img src="delhi.jpg" style="width: 300px; height: 250px; border-radius: 12px;">
+                <br>
+                <br>
+                <a href="file:///C:/Users/Dharani/OneDrive/Desktop/TOUR%20TROVE/registration.htmL">Book Now 20% OFF</a>
+            </div>
+            <div class="places">
+                <h2>Jaipur</h2>
+                <img src="jaipur.jpg" style="width: 300px; height: 250px; border-radius: 12px;">
+                <br>
+                <br>
+                <a href="file:///C:/Users/Dharani/OneDrive/Desktop/TOUR%20TROVE/registration.htmL">Book Now 25% OFF</a>
+            </div>
+        </div>
+        
+    </div>
+    <div class="footer">
+        <a href="complaint.html">Reviews</a>
+    </div>
+
+    <script>
+        function getUsernameFromUrl() {
+            const urlParams = new URLSearchParams(window.location.search);
+            return urlParams.get('username');
+        }
+
+        document.addEventListener('DOMContentLoaded', function() {
+            const username = getUsernameFromUrl();
+            if (username) {
+                document.getElementById('username-display').textContent = username;
+            }
+        });
+    </script>
+</body>
+</html>
