@@ -1,4 +1,4 @@
-# Tourtrove
+# TourTrove
 This project is created by three memberes.Our project is about the travelling website.
 The project titled TourTrove using Html,Css,Javascript.
 Tour Trove revolutionizes travel planning by simplifying options based on your preferences and budget, setting itself apart from overwhelming travel platforms. Utilizing advanced algorithms, it offers personalized recommendations that surpass those of other apps. By analyzing user reviews for sentiment and integrating expert insights, Tour Trove ensures a balanced perspective. The platform provides transparent cost details, real-time pricing updates, and a dependable infrastructure for booking flights, accommodations, and activities seamlessly. Tour Trove sets new standards in convenience, personalization, and trust for global travelers, aiming to enhance the travel experience through simplified decision-making and elevated user satisfaction.
